@@ -33,3 +33,36 @@ Este proyecto es una herramienta educativa que permite visualizar y comparar có
 - Busca el bloque de memoria **más grande** disponible
 - **Ventaja:** Deja fragmentos más grandes que pueden ser útiles después
 - **Desventaja:** Puede desperdiciar espacio en bloques grandes
+
+## 🚀 Cómo usar
+
+### Paso a paso:
+
+1. **Agregar bloques de memoria:**
+   - Ingresa el tamaño del bloque en KB en el campo "Tamaño del bloque"
+   - Haz clic en "Agregar Bloque"
+   - El simulador inicia con 4 bloques predeterminados: 200 KB, 150 KB, 300 KB y 100 KB
+
+2. **Crear procesos:**
+   - Ingresa el tamaño del proceso en KB en el campo "Tamaño del proceso"
+   - Haz clic en "Agregar Proceso"
+   - El proceso se agregará a la lista de espera
+
+3. **Asignar procesos:**
+   - Haz clic en "Asignar Proceso" para que ambos algoritmos asignen el siguiente proceso en espera
+   - Observa cómo cada algoritmo selecciona diferentes bloques de memoria
+
+4. **Observar resultados:**
+   - **Bloques verdes:** Memoria libre disponible
+   - **Bloques morados:** Memoria asignada a un proceso
+   - **Lista de procesos:** Muestra qué procesos están asignados (✓) o esperando (⏳)
+
+5. **Analizar estadísticas:**
+   - Revisa el porcentaje de fragmentación de cada algoritmo
+   - Compara la cantidad de procesos asignados exitosamente
+   - Observa las barras de memoria utilizada vs libre
+
+6. **Reiniciar:**
+   - **"Liberar Todo":** Desasigna todos los procesos pero mantiene los bloques de memoria
+   - **"Reiniciar Memoria":** Elimina todo y vuelve a la configuración inicial
+
