@@ -120,7 +120,7 @@ Las computadoras reales usan métodos más avanzados que combinan lo mejor de es
 
 ## 📁 Estructura del Proyecto
 ```
-📦 memory-allocation-simulator
+📦 ASIGNACION-DE-MEMORIA
  ┣ 📜 index.html       # Interfaz principal
  ┣ 📜 script.js        # Lógica de los algoritmos
  ┣ 📜 style.css        # Estilos y diseño
