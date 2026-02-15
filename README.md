@@ -21,3 +21,15 @@ Este proyecto es una herramienta educativa que permite visualizar y comparar có
 - **Estadísticas de fragmentación** para cada algoritmo
 - **Interfaz intuitiva** con diseño moderno y responsivo
 - **Métricas de rendimiento** que muestran la eficiencia de cada algoritmo
+
+## 🎯 Algoritmos Implementados
+
+### Best Fit (Mejor Ajuste)
+- Busca el bloque de memoria **más pequeño** que pueda contener el proceso
+- **Ventaja:** Minimiza el espacio desperdiciado
+- **Desventaja:** Puede generar muchos fragmentos pequeños
+
+### Worst Fit (Peor Ajuste)
+- Busca el bloque de memoria **más grande** disponible
+- **Ventaja:** Deja fragmentos más grandes que pueden ser útiles después
+- **Desventaja:** Puede desperdiciar espacio en bloques grandes
