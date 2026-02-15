@@ -111,3 +111,19 @@ Entonces, ¿cuál es mejor? La verdad es que ninguno es perfecto para todas las 
 
 Las computadoras reales usan métodos más avanzados que combinan lo mejor de estos algoritmos y otros más. También tienen trucos para reorganizar la memoria y aprovecharla mejor. Este simulador nos ayuda a entender cómo funciona la base de todo eso, para después poder comprender sistemas más complicados.
 
+
+## 🛠️ Tecnologías
+
+- **HTML5:** Estructura del simulador
+- **CSS3:** Estilos, animaciones y diseño responsivo
+- **JavaScript Vanilla:** Lógica de los algoritmos y gestión del estado
+
+## 📁 Estructura del Proyecto
+```
+📦 memory-allocation-simulator
+ ┣ 📜 index.html       # Interfaz principal
+ ┣ 📜 script.js        # Lógica de los algoritmos
+ ┣ 📜 style.css        # Estilos y diseño
+ └ 📜 README.md        # Documentación
+```
+
